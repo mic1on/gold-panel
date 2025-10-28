@@ -1,5 +1,6 @@
 # 金价状态栏监控应用
 
+![](https://miclon-job.oss-cn-hangzhou.aliyuncs.com/img/企业微信截图_979eb653-c9f4-4200-bcaf-64cda968f062.png)
 一个基于 macOS 状态栏的实时金价监控应用，使用 `rumps` 库实现。
 
 ## 功能特性
