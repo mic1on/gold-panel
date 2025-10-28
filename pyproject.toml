@@ -1,0 +1,24 @@
+[project]
+name = "gold-panel"
+version = "0.1.0"
+description = "金价监控状态栏应用"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "rumps>=0.4.0",
+    "setuptools>=80.9.0",
+    "usepy>=0.4.21",
+]
+
+
+[[tool.uv.index]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.3.0",
+    "py2app>=0.28.8",
+]
