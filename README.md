@@ -118,7 +118,7 @@ python run.py
 ### 打包
 
 ```bash
-python setup.py py2app
+uv run pyinstaller gold-panel.spec
 ```
 
 ## 许可证
